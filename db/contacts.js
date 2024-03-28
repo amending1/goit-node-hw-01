@@ -8,7 +8,8 @@ const path = require("path");
 
 //__dirname jest zmienną globalną w Node.js, która zawiera ścieżkę do katalogu bieżącego pliku
 // tworzę zmienną contactsPath, która zawiera pełną ścieżkę do pliku contacts.json. Ścieżka do pliku contacts.json jest tworzona w oparciu o ścieżkę do katalogu bieżącego, dodatkowo dodając elementy db oraz contacts.json.
-const contactsPath = path.join(__dirname, "db", "contacts.json");
+// const contactsPath = path.join(__dirname, "db", "contacts.json");
+const contactsPath = path.join(__dirname, "contacts.json");
 
 //funkcja do wyświettlania listy kontaktów
 //Ta część kodu używa metody readFile z modułu fs, aby odczytać zawartość pliku contacts.json
