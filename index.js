@@ -1,10 +1,13 @@
+// Plik index.js zawiera logikę obsługi poleceń z linii poleceń, która wykorzystuje funkcje z pliku contacts.js do manipulacji danymi kontaktowymi przechowywanymi w pliku contacts.json
+
+
 //importuję moduł za pomocą require
 const {
   listContacts,
   getContactById,
   addContact,
   removeContact,
-} = require("./contacts.js");
+} = require("./db/contacts.js");
 
 const { Command } = require("commander");
 
